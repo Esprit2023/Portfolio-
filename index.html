@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nack Lange Marvin | Portfolio</title>
+  <meta name="description" content="Portfolio de Nack Lange Marvin, étudiant en génie logiciel à Dakar. Projets web, programmation et design graphique.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ MENU PRINCIPAL ============ -->
+  <header class="navbar" id="navbar">
+    <a href="#accueil" class="logo">MR SPRIT<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">☰</button>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#accueil" class="active">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#parcours">Parcours</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#designs">Designs</a></li>
+        <li><a href="#cv">Mon CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ ACCUEIL (tout centré) ============ -->
+    <section id="accueil" class="hero">
+      <div class="hero-content">
+        <div class="avatar">
+          <img src="images/photo.jpg" alt="Photo de Nack Lange Marvin" onerror="this.style.display='none'; this.parentElement.classList.add('no-photo');">
+          <span class="avatar-initials">NM</span>
+        </div>
+        <p class="hello">Bienvenue sur mon portfolio</p>
+        <h1>Nack Lange Marvin</h1>
+        <h2 class="role">Programmeur informatique <span>·</span> Designer graphique</h2>
+        <p class="tagline">
+          Étudiant en génie logiciel à Dakar, passionné par le numérique et le design.
+          Je construis des projets qui allient créativité technique et rigueur.
+        </p>
+        <div class="hero-buttons">
+          <a href="cv/CV-Nack-Lange-Marvin.pdf" class="btn btn-primary" download>⬇ Télécharger mon CV</a>
+          <a href="#projets" class="btn btn-outline">Voir mes projets</a>
+          <a href="#designs" class="btn btn-outline">Mes designs</a>
+        </div>
+        <div class="badges">
+          <span class="badge"><i class="dot"></i> Disponible immédiatement</span>
+          <span class="badge">📍 Grand Yoff, Dakar</span>
+        </div>
+      </div>
+      <a href="#apropos" class="scroll-down" aria-label="Défiler vers le bas">↓</a>
+    </section>
+
+    <!-- ============ À PROPOS ============ -->
+    <section id="apropos" class="section">
+      <h2 class="section-title">À propos</h2>
+      <p class="section-sub">Qui suis-je ?</p>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Je me nomme <strong>Nack Lange Marvin</strong>, étudiant congolais installé à Dakar.
+            Après une Licence 1 en <strong>Informatique de Gestion</strong>, je poursuis en
+            Licence 2 en <strong>Génie logiciel &amp; Analyse programmeur</strong> à l'IPG/ISTI.
+          </p>
+          <p>
+            Passionné par l'univers du numérique et du design graphique, je veux allier
+            <strong>créativité technique</strong> et <strong>rigueur administrative</strong>.
+            Mon expérience en gestion, en recouvrement et en relation client m'a appris
+            l'adaptabilité, le sens du détail et la recherche de l'excellence.
+          </p>
+          <p>
+            Ce portfolio rassemble mes projets, mes réalisations graphiques et mon parcours.
+            Je le fais évoluer au fil de mes apprentissages.
+          </p>
+        </div>
+        <div class="about-card">
+          <h3>En bref</h3>
+          <ul>
+            <li><strong>Formation :</strong> Licence 2 Génie logiciel & Analyse programmeur (en cours)</li>
+            <li><strong>Langues :</strong> Français (courant), Anglais (débutant)</li>
+            <li><strong>Centres d'intérêt :</strong> Graphisme, musique, internet, nouvelles technologies</li>
+            <li><strong>Localisation :</strong> Grand Yoff, Dakar</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMPÉTENCES ============ -->
+    <section id="competences" class="section alt">
+      <h2 class="section-title">Compétences</h2>
+      <p class="section-sub">Ce que je sais faire</p>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>💻 Technique</h3>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>Langage C</span><span>Algorithmique</span><span>Merise</span><span>Git &amp; GitHub</span>
+          </div>
+          <div class="bar"><label>HTML / CSS</label><div><i style="width:60%"></i></div></div>
+          <div class="bar"><label>Langage C</label><div><i style="width:45%"></i></div></div>
+          <div class="bar"><label>Algorithmique</label><div><i style="width:55%"></i></div></div>
+          <div class="bar"><label>Merise (MCD / MLD)</label><div><i style="width:55%"></i></div></div>
+        </div>
+
+        <div class="skill-card">
+          <h3>🎨 Design &amp; Bureautique</h3>
+          <div class="tags">
+            <span>Canva</span><span>Conception graphique</span><span>Suite Microsoft Office</span>
+          </div>
+          <div class="bar"><label>Canva / Graphisme</label><div><i style="width:80%"></i></div></div>
+          <div class="bar"><label>Microsoft Office</label><div><i style="width:75%"></i></div></div>
+        </div>
+
+        <div class="skill-card">
+          <h3>🤝 Savoir-être</h3>
+          <div class="tags">
+            <span>Gestion de projet</span><span>Rigueur administrative</span><span>Relation client</span><span>Veille technologique</span><span>Adaptabilité</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>🌍 Langues</h3>
+          <div class="bar"><label>Français</label><div><i style="width:95%"></i></div></div>
+          <div class="bar"><label>Anglais</label><div><i style="width:30%"></i></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PARCOURS ============ -->
+    <section id="parcours" class="section">
+      <h2 class="section-title">Parcours</h2>
+      <p class="section-sub">Expériences et formations</p>
+
+      <div class="two-cols">
+        <div>
+          <h3 class="col-title">Expériences professionnelles</h3>
+          <div class="timeline">
+            <article class="t-item">
+              <span class="t-date">2023 – 2025</span>
+              <h4>Agent de Recouvrement · PGS CONGO</h4>
+              <ul>
+                <li>Optimisation du cycle de facturation et sécurisation des paiements</li>
+                <li>Gestion autonome des relations bancaires et encaissements</li>
+                <li>Suivi rigoureux des créances clients et reporting financier</li>
+                <li>Interface de confiance entre la direction et les partenaires</li>
+              </ul>
+            </article>
+            <article class="t-item">
+              <span class="t-date">2022 – 2023</span>
+              <h4>Agent de Contrôle &amp; Accueil · Mission externe chez ACS Congo</h4>
+              <ul>
+                <li>Accueil et orientation des clients</li>
+                <li>Contrôle des sorties de produits en conformité avec les factures</li>
+                <li>Tenue d'un registre pour assurer la traçabilité des mouvements</li>
+                <li>Suivi des pièces utilisées par les employés</li>
+                <li>Collaboration avec le magasinier pour fluidifier le processus de sortie</li>
+              </ul>
+            </article>
+            <article class="t-item">
+              <span class="t-date">2018 – 2022</span>
+              <h4>Gérant de Point de Service Numérique · Activité périscolaire &amp; saisonnière</h4>
+              <ul>
+                <li>Gestion des flux financiers et des services télécoms</li>
+                <li>Conseil client et assistance technique sur les services numériques</li>
+                <li>Expertise en gestion de caisse et fidélisation de la clientèle</li>
+                <li>Continuité de service sur 4 ans parallèlement aux études</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="col-title">Formations</h3>
+          <div class="timeline">
+            <article class="t-item">
+              <span class="t-date">2026 – En cours</span>
+              <h4>Licence 2 · Génie logiciel &amp; Analyse programmeur</h4>
+              <p>IPG/ISTI</p>
+            </article>
+            <article class="t-item">
+              <span class="t-date">Licence 1</span>
+              <h4>Informatique de Gestion</h4>
+              <p>HTML, CSS, langage C, algorithmique, Merise</p>
+            </article>
+            <article class="t-item">
+              <span class="t-date">2019 – 2023</span>
+              <h4>Baccalauréat Série A4</h4>
+              <p>Lycée de Mpaka</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJETS ============ -->
+    <section id="projets" class="section alt">
+      <h2 class="section-title">Projets</h2>
+      <p class="section-sub">Mes réalisations sur GitHub (la liste grandit au fil du temps)</p>
+
+      <div class="projects-grid">
+
+        <!-- MODÈLE À COPIER pour chaque nouveau projet -->
+        <article class="project-card">
+          <div class="project-thumb">🌐</div>
+          <div class="project-body">
+            <h3>Portfolio personnel</h3>
+            <p>Mon site de présentation en HTML, CSS et JavaScript, hébergé sur GitHub Pages.</p>
+            <div class="tags small"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-links">
+              <a href="https://github.com/TON-PSEUDO/portfolio" target="_blank" rel="noopener">Code source</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">🧮</div>
+          <div class="project-body">
+            <h3>Calculatrice en langage C</h3>
+            <p>Calculatrice en console avec menu, gestion des erreurs et opérations de base. <em>(À venir)</em></p>
+            <div class="tags small"><span>C</span><span>Algorithmique</span></div>
+            <div class="project-links">
+              <a href="https://github.com/TON-PSEUDO/calculatrice-c" target="_blank" rel="noopener">Code source</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">📦</div>
+          <div class="project-body">
+            <h3>Gestion de stock (Merise)</h3>
+            <p>Modélisation complète : MCD, MLD et script SQL pour un magasin. <em>(À venir)</em></p>
+            <div class="tags small"><span>Merise</span><span>SQL</span></div>
+            <div class="project-links">
+              <a href="https://github.com/TON-PSEUDO/gestion-stock-merise" target="_blank" rel="noopener">Code source</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+      <p class="note">Remplace <strong>TON-PSEUDO</strong> par ton nom d'utilisateur GitHub et ajoute une carte par projet.</p>
+    </section>
+
+    <!-- ============ DESIGNS ============ -->
+    <section id="designs" class="section">
+      <h2 class="section-title">Designs</h2>
+      <p class="section-sub">Mes créations graphiques</p>
+
+      <div class="filters" id="filters">
+        <button class="filter active" data-filter="all">Tous</button>
+        <button class="filter" data-filter="affiche">Affiches</button>
+        <button class="filter" data-filter="logo">Logos</button>
+        <button class="filter" data-filter="reseaux">Réseaux sociaux</button>
+      </div>
+
+      <div class="gallery" id="gallery">
+        <!-- Pour ajouter un design : mets l'image dans le dossier images/ puis copie un bloc ci-dessous -->
+        <figure class="g-item" data-cat="affiche">
+          <img src="images/design1.jpg" alt="Design 1" loading="lazy" onerror="this.remove()">
+          <figcaption>Affiche · Titre du design</figcaption>
+        </figure>
+        <figure class="g-item" data-cat="logo">
+          <img src="images/design2.jpg" alt="Design 2" loading="lazy" onerror="this.remove()">
+          <figcaption>Logo · Titre du design</figcaption>
+        </figure>
+        <figure class="g-item" data-cat="reseaux">
+          <img src="images/design3.jpg" alt="Design 3" loading="lazy" onerror="this.remove()">
+          <figcaption>Réseaux sociaux · Titre du design</figcaption>
+        </figure>
+        <figure class="g-item" data-cat="affiche">
+          <img src="images/design4.jpg" alt="Design 4" loading="lazy" onerror="this.remove()">
+          <figcaption>Affiche · Titre du design</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ CV ============ -->
+    <section id="cv" class="section alt center">
+      <h2 class="section-title">Mon CV</h2>
+      <p class="section-sub">Retrouve mon parcours complet en un clic</p>
+      <div class="cv-box">
+        <div class="cv-icon">📄</div>
+        <h3>CV · Nack Lange Marvin</h3>
+        <p>Programmeur informatique · Génie logiciel &amp; Analyse programmeur</p>
+        <a href="CV Nack Lange Marvin.pdf" class="btn btn-primary" download>⬇ Télécharger (PDF)</a>
+        <a href="CV Nack Lange Marvin.pdf" class="btn btn-outline" target="_blank" rel="noopener">👁 Voir en ligne</a>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section center">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-sub">Une opportunité, un stage, un projet ? Parlons-en.</p>
+
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:Nackmarvin001@gmail.com">
+          <span>✉️</span><h4>Email</h4><p>Nackmarvin001@gmail.com</p>
+        </a>
+        <a class="contact-card" href="tel:+221710099921">
+          <span>📞</span><h4>Téléphone</h4><p>(+221) 71 009 99 21</p>
+        </a>
+        <a class="contact-card" href="https://wa.me/221710099921" target="_blank" rel="noopener">
+          <span>💬</span><h4>WhatsApp</h4><p>Envoyer un message</p>
+        </a>
+        <a class="contact-card" href="https://github.com/Esprit2023" target="_blank" rel="noopener">
+          <span>🐙</span><h4>GitHub</h4><p>github.com/Esprit2023</p>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Nack Lange Marvin · Fait avec HTML, CSS et JavaScript</p>
+    <a href="#accueil">↑ Retour en haut</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

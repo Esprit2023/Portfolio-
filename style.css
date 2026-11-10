@@ -180,10 +180,10 @@ img { max-width: 100%; display: block; }
 .note { text-align: center; color: var(--muted); font-size: .85rem; margin-top: 30px; }
 
 /* ============ DESIGNS ============ */
-.filters { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 36px; }
+.filters { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;  }
 .filter {
   background: none; border: 1px solid var(--border); color: var(--muted);
-  padding: 8px 20px; border-radius: 999px; cursor: pointer; font-size: .9rem; transition: .25s;
+  padding: 8px 20px; border-radius: 999px; cursor: pointer; font-size: .85rem; transition: .25s;
 }
 .filter:hover { color: var(--text); border-color: #666; }
 .filter.active { background: #fff; color: #000; border-color: #fff; font-weight: 600; }

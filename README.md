@@ -22,47 +22,45 @@ portfolio/
 ## 1. Ouvrir dans Visual Studio Code
 
 1. J'ai crée un dossier `portfolio` sur mon ordinateur et j'y ai mis 3 fichiers (`index.html`, `style.css`, `script.js`).
-2. J'ai crée sous-dossier `images`.
-3. Exporte ton CV en **PDF** depuis Canva, nomme-le `CV-Nack-Lange-Marvin.pdf`, mets-le dans `cv/`.
-4. Mets ta photo dans `images/photo.jpg` et tes designs dans `images/` (design1.jpg, etc.).
+2. J'ai crée un sous-dossier `images`.
+3. J'ai exporté mon CV en **PDF** depuis Canva, nomme-le `CV-Nack-Lange-Marvin.pdf`.
+4. J'ai mis ma photo dans `images/photo.jpg` et mes designs dans `images/` (design1.jpg, etc.).
 5. Dans VS Code : **Fichier → Ouvrir le dossier** → choisis `portfolio`.
-6. Installe l'extension **Live Server** (Ritwick Dey), puis clic droit sur `index.html` → **Open with Live Server**. Le site se met à jour à chaque sauvegarde.
+6. J'ai installé l'extension Live Server , puis j'ai fait un clic droit sur `index.html` → Open with Live Server. Le site se met à jour à chaque sauvegarde.
 
 ## 2. Personnaliser
 
-- Cherche `TON-PSEUDO` dans `index.html` (Ctrl+Maj+F) et remplace par ton nom d'utilisateur GitHub.
-- Pour ajouter un design : copie un bloc `<figure class="g-item">...</figure>` dans la section Designs.
-- Pour ajouter un projet : copie un bloc `<article class="project-card">...</article>` dans la section Projets.
-- Les barres de niveau se règlent avec `style="width:60%"`. Sois honnête sur tes niveaux.
+- Je cherche `MON-PSEUDO` dans `index.html` (Ctrl+Maj+F) et remplace par mon nom d'utilisateur GitHub.
+- Pour ajouter un design : j'ai copié un bloc `<figure class="g-item">...</figure>` dans la section Designs.
+- Pour ajouter un projet : j'ai copié un bloc `<article class="project-card">...</article>` dans la section Projets.
+- Les barres de niveau se règlent avec `style="width:60%"`.
 
 ## 3. Mettre sur GitHub
 
 ### a) Préparer
-1. Installe **Git** : https://git-scm.com
-2. Crée un compte sur https://github.com (choisis un pseudo professionnel, par exemple `marvin-nack`).
-3. Dans le terminal de VS Code (Ctrl+`), configure ton identité une seule fois :
+1. J'installe **Git** : https://git-scm.com
+2. Dans le terminal de VS Code (Ctrl+`), je configure mon identité une seule fois :
 ```bash
 git config --global user.name "Nack Lange Marvin"
 git config --global user.email "Nackmarvin001@gmail.com"
 ```
 
 ### b) Envoyer le projet
-1. Sur GitHub : **New repository**, nom `portfolio`, **Public**, sans README (tu en as déjà un).
+1. Sur GitHub : **New repository**, nom `portfolio`, **Public**, sans README (Car j'en ai deja).
 2. Dans le terminal de VS Code, dans le dossier du projet :
 ```bash
 git init
 git add .
 git commit -m "Premier commit : portfolio"
 git branch -M main
-git remote add origin https://github.com/TON-PSEUDO/portfolio.git
+git remote add origin https://github.com/Esprit2023/portfolio.git
 git push -u origin main
 ```
 
 ### c) Mettre le site en ligne (gratuit)
 1. Sur GitHub : **Settings → Pages**.
 2. **Source** : Deploy from a branch → branche `main` → dossier `/ (root)` → **Save**.
-3. Après 1 à 2 minutes, ton site est sur : `https://TON-PSEUDO.github.io/portfolio/`
-4. Mets ce lien sur ton CV, ton WhatsApp, LinkedIn.
+3. Après 1 à 2 minutes, mon site est sur : `https://Esprit2023.github.io/portfolio/`
 
 ### d) Mettre à jour plus tard
 ```bash
@@ -70,11 +68,6 @@ git add .
 git commit -m "Ajout d'un nouveau design"
 git push
 ```
-
-### e) Astuce : profil GitHub
-Crée un dépôt public nommé exactement comme ton pseudo (ex. `marvin-nack`) avec un `README.md` : il s'affiche en haut de ton profil. Présente-toi en 5 lignes et mets le lien de ton portfolio.
-
----
 
 ## 4. Idées de projets avec ce que tu sais (HTML, CSS, C, algorithmique, Merise)
 
